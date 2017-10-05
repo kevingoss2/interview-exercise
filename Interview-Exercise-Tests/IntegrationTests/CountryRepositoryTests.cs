@@ -45,7 +45,7 @@ namespace Interview_Exercise_Tests.UnitTests
             Assert.AreEqual("USA", c.Code);
         }
         [Test,Order(4)]
-        public void Delete()
+        public void DeleteTest()
         {
             _rep.Delete("USA");
             try
@@ -60,7 +60,7 @@ namespace Interview_Exercise_Tests.UnitTests
         }
 
         [Test,Order(5)]
-        public void Clear()
+        public void ClearTest()
         {
             //add some items
             _rep.Add(new Country() { Code = "USA", Name = "The United States of America" });
@@ -75,7 +75,7 @@ namespace Interview_Exercise_Tests.UnitTests
 
 
         [Test,Order(6)]
-        public void DeleteInvalid()
+        public void DeleteInvalidTest()
         {
             try
             {
@@ -89,7 +89,7 @@ namespace Interview_Exercise_Tests.UnitTests
         }
 
         [Test,Order(7)]
-        public void GetInvalid()
+        public void GetInvalidTest()
         {
             try
             {
@@ -103,7 +103,7 @@ namespace Interview_Exercise_Tests.UnitTests
         }
 
         [Test,Order(8)]
-        public void UpdateInvalid()
+        public void UpdateInvalidTest()
         {
             try
             {
@@ -117,7 +117,7 @@ namespace Interview_Exercise_Tests.UnitTests
         }
 
         [Test,Order(9)]
-        public void TestMultiFile()
+        public void TestMultiFileTest()
         {
             //add two with different files
             _rep.Add(new Country() { Code = "USA", Name = "The United States of America" });
