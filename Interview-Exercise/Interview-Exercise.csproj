@@ -40,13 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CountryFile.cs" />
-    <Compile Include="CountryValidator.cs" />
     <Compile Include="Country.cs" />
     <Compile Include="CountryCodeRepository.cs" />
+    <Compile Include="CountryFile.cs" />
+    <Compile Include="CountryValidator.cs" />
     <Compile Include="ICountryFile.cs" />
-    <Compile Include="ICountryValidator.cs" />
     <Compile Include="ICountryRepository.cs" />
+    <Compile Include="ICountryValidator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
