@@ -28,7 +28,7 @@ namespace Interview_Exercise_Tests
             }
         }
 
-        [TestFixtureSetUp]
+        [SetUp]
         public virtual void RunOnceBeforeAny()
         {
             mocks = new MockRepository();
@@ -72,7 +72,7 @@ namespace Interview_Exercise_Tests
             }
         }
 
-        [TestFixtureTearDown]
+        [TearDown]
         public virtual void RunOnceAfterAll()
         {
             // Make sure all objects are now in replay mode
